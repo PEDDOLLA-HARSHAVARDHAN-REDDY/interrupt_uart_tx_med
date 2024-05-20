@@ -3,7 +3,7 @@
 #define FOSC 16000000
 #define BAUD 9600
 #define MYUBRR (FOSC/16/BAUD-1)
-#define UART_BUFFER_SIZE (50)
+#define UART_BUFFER_SIZE (16)
 #include "ring_buffer.h"
 
 uint8_t buffer_array[UART_BUFFER_SIZE];

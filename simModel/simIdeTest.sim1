@@ -2,10 +2,10 @@
 
 <item itemtype="Probe" CircId="Probe-9" mainComp="false" Show_id="false" Show_Val="true" Pos="820,384" rotation="-45" hflip="1" vflip="1" label="Probe-9" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Subcircuit" CircId="Uno-11" mainComp="false" Show_id="true" Show_Val="false" Pos="884,400" rotation="0" hflip="1" vflip="1" label="Uno-11" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps itemtype="MCU" CircId="11_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="11_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../arduino_uart/.pio/build/uno/firmware_arduino_uart.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+<item itemtype="Subcircuit" CircId="Mega-13" mainComp="false" Show_id="true" Show_Val="false" Pos="936,292" rotation="0" hflip="1" vflip="1" label="Mega-13" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="13_mega2560-63" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="13_mega2560-63" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../.pio/build/megaatmega2560/firmware_intrr_uart_tx_med.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
 </item>
 
-<item itemtype="Connector" uid="Connector-12" startpinid="Uno-11-1" endpinid="Probe-9-inpin" pointList="892,424,804,424,804,400" />
+<item itemtype="Connector" uid="connector-14" startpinid="Probe-9-inpin" endpinid="Mega-13-1" pointList="804,400,804,420,944,420" />
 
 </circuit>
