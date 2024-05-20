@@ -5,7 +5,6 @@
 #define MYUBRR (FOSC/16/BAUD-1)
 #define UART_BUFFER_SIZE (50)
 #include "ring_buffer.h"
-#include<Arduino.h>
 
 uint8_t buffer_array[UART_BUFFER_SIZE];
 struct ring_buffer tx_buffer = {.buffer=&buffer_array[0],.size=UART_BUFFER_SIZE,.head=0U,.tail=0U,.full=false};
